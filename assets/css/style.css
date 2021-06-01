@@ -1,0 +1,112 @@
+body {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bas {
+  height: 80%;
+}
+
+/*navbar*/
+.navbar-collapse .nav-link {
+  font-weight: bold;
+  color: gray;
+  margin-right: 1rem;
+  font-size: 0.8;
+}
+.navbar-collapse ul .ilk {
+  background-color: #017043;
+  color: white;
+  border-radius: 35%;
+}
+/*navbar*/
+.orta-kisim {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.orta-kisim .yazi {
+  position: relative;
+  max-width: 500px;
+  margin-left: 3rem;
+}
+.orta-kisim .yazi h2 {
+  color: rgb(117, 117, 117);
+  font-size: 2.5rem;
+  line-height: 4rem;
+  font-weight: 500;
+}
+.orta-kisim .yazi h2 span {
+  color: #017043;
+  font-size: 3.3rem;
+  font-weight: 900;
+}
+.orta-kisim .yazi p {
+  color: rgb(117, 117, 117);
+}
+.orta-kisim .resim {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5rem;
+}
+.orta-kisim .yazi button {
+  background-color: #017043;
+  border-radius: 40px;
+  font-weight: 500;
+}
+.icons {
+  position: absolute;
+  right: 20px;
+}
+.icons li {
+  list-style: none;
+  margin-bottom: 1rem;
+  color: rgb(78, 76, 76);
+  font-size: 1.2rem;
+}
+.icecek {
+  position: absolute;
+  display: flex;
+  left: 40%;
+  bottom: 10px;
+  align-items: center;
+}
+.icecek li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #017043;
+  clip-path: circle(42rem at right 50rem);
+}
+.circle2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #02965b;
+  clip-path: circle(25rem at right 35rem);
+}
+.circle3 {
+  position: absolute;   
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #017043;      
+  clip-path: circle(25rem at left 0rem);
+}
+​
+
